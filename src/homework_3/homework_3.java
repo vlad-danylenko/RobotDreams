@@ -1,6 +1,6 @@
 package src.homework_3;
 
-public class Main {
+public class homework_3 {
     public static void main(String[] args) {
         Integer a = 6, b = 2;
 
