@@ -12,9 +12,9 @@ public class homework_3 {
 
         System.out.println("Введені числа: " + a + "; " + b);
 
-        System.out.println("Результат додавання: " + (a+b)); // Result 8
-        System.out.println("Результат віднімання: " + (a-b)); // Result 4
-        System.out.println("Результат ділення: " + (a/b)); // Result 3
-        System.out.println("Результат множення: " + (a*b)); // Result 12
+        System.out.println("Результат додавання: " + (a+b));
+        System.out.println("Результат віднімання: " + (a-b));
+        System.out.println("Результат ділення: " + (a/b));
+        System.out.println("Результат множення: " + (a*b));
     }
 }
