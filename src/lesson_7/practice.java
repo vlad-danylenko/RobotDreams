@@ -12,7 +12,6 @@ public class practice {
         System.out.println("Напишіть цифрою яку операцію необхідно виконати? \n1 - Відняти\n2 - Додати\n3 - Помжножити\n4 - Поділити");
         int operationFromUser = reader.nextInt();
 
-
         System.out.println("Результат: " + defineOperation(number1,number2,operationFromUser));
 
     }
