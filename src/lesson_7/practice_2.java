@@ -11,8 +11,7 @@ public class practice_2 {
   private static StringBuilder checkMethod(StringBuilder name) {
 
         if (!name.isEmpty()) {
-            int checkName = name.length()-1;
-            checkMethod(name.deleteCharAt(checkName));
+            checkMethod(name.deleteCharAt(name.length()-1));
         }
         return name;
 
