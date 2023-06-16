@@ -1,10 +1,15 @@
 package src.lesson_7;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class lesson_7 {
     public static void main(String[] args) {
 /*        StringBuilder name = new StringBuilder("Vlad");
         recEx(name);
         System.out.println(name);*/
+
+        //String name ="Vlad";
+        //System.out.println(name.length());
     }
 
 /*    private static StringBuilder recEx(StringBuilder name) {
@@ -13,4 +18,7 @@ public class lesson_7 {
         }
         return name;
     }*/
+
+
+
 }
