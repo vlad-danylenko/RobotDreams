@@ -20,6 +20,7 @@ public class Student {
 
     public int getAvgScore () {
         return avgScore;
+
     }
 
     public void setName (String name) {

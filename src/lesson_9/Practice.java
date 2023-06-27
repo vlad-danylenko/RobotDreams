@@ -8,6 +8,7 @@ public class Practice {
         System.out.println(vladyslav.getName());
         System.out.println(vladyslav.getTicketNumber());
         System.out.println(vladyslav.getAvgScore());
+
     }
 
 
