@@ -7,6 +7,9 @@ public class Student {
         this.avgScore = avgScore;
     }
 
+    public Student() {
+    }
+
     private String name;
     private String ticketNumber;
     private int avgScore;
