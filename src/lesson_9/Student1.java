@@ -1,13 +1,13 @@
 package src.lesson_9;
 
-public class Student {
-    public Student (String name, String ticketNumber, int avgScore) {
+public class Student1 {
+    public Student1(String name, String ticketNumber, int avgScore) {
         this.name = name;
         this.ticketNumber = ticketNumber;
         this.avgScore = avgScore;
     }
 
-    public Student() {
+    public Student1() {
     }
 
     private String name;
