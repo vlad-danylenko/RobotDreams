@@ -1,7 +1,7 @@
 package src.lesson_13;
 
 public class Circle implements GeometricShape {
-    private int radius;
+    private final int radius;
 
     public Circle(int radius) {
         this.radius = radius;

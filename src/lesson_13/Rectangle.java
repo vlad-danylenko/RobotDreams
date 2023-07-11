@@ -1,8 +1,8 @@
 package src.lesson_13;
 
 public class Rectangle implements GeometricShape {
-    private int height;
-    private int width;
+    private final int height;
+    private final int width;
 
     public Rectangle(int height, int width) {
         this.height = height;
