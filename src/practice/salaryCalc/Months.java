@@ -1,4 +1,4 @@
-package src.practice.composition.salaryCalc;
+package src.practice.salaryCalc;
 
 public enum Months {
 

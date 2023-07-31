@@ -1,4 +1,4 @@
-package src.practice.composition.salaryCalc;
+package src.practice.salaryCalc;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Main {
 
             String monthString = String.valueOf(month);
 
-            System.out.println("Місяць: " + monthString);
+            System.out.println("Місяць: " + monthString.toLowerCase());
             System.out.println("Аванс до видачі: " + (salaryAfterTax / month.getWorkDays()) * month.getDaysForAvans());
             System.out.println("Зарплата до видачі " + (salaryAfterTax / month.getWorkDays()) * month.getDaysForSalary());
         }
