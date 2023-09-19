@@ -10,7 +10,6 @@ public class DatabaseInitializer {
 
         try (Statement statement = connection.createStatement()) {
 
-            // Створення таблиці departments
             statement.execute(
                     "CREATE TABLE IF NOT EXISTS countries (" +
                             "id INT AUTO_INCREMENT PRIMARY KEY," +
@@ -19,7 +18,6 @@ public class DatabaseInitializer {
                             ")"
             );
 
-            // Створення таблиці users
             statement.execute(
                     "CREATE TABLE IF NOT EXISTS cities (" +
                             "id INT AUTO_INCREMENT PRIMARY KEY," +
@@ -27,6 +25,14 @@ public class DatabaseInitializer {
                             "city_name_en VARCHAR(255) NOT NULL," +
                             "capital_country_name_ua VARCHAR(255) NOT NULL," +
                             "FOREIGN KEY (id) REFERENCES countries(id)" +
+                            ")"
+            );
+
+            statement.execute(
+                    "CREATE TABLE IF NOT EXISTS students (" +
+                            "id INT AUTO_INCREMENT PRIMARY KEY," +
+                            "name VARCHAR(255) NOT NULL," +
+                            "surname VARCHAR(255) NOT NULL" +
                             ")"
             );
         }

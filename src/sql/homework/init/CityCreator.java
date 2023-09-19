@@ -37,7 +37,6 @@ public class CityCreator {
     public void initialization() {
         try {
             createCities();
-            System.out.println("Cities created successfully!");
         } catch (SQLException e) {
             e.printStackTrace();
         }

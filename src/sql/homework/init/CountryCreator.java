@@ -30,7 +30,6 @@ public class CountryCreator {
     public void initialization() {
         try {
             createCountries();
-            System.out.println("Countries created successfully!");
         } catch (SQLException e) {
             e.printStackTrace();
         }
