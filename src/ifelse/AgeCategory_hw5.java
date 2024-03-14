@@ -9,7 +9,7 @@ public class AgeCategory_hw5 {
         System.out.println("Введіть вік від 0 до 100");
         int ageFromUser = reader.nextInt();
 
-        if (ageFromUser >= 0 && ageFromUser < 13) {
+        if (ageFromUser >= 0 && ageFromUser < 13 ) {
             System.out.println("Дитина");
         } else if (ageFromUser >= 13 && ageFromUser < 18) {
             System.out.println("Підліток");
